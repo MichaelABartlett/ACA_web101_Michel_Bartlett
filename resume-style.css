@@ -1,28 +1,211 @@
 * {
     box-sizing: border-box;
   }
+
   body {
     margin: 0;
   }
   .grid-container {
-    height: 100%;
+    /* border: 1px solid black; */
+    /*height: 100%;*/
     display: grid;
-    grid-template-columns: 250px 150px 250px;
-    grid-template-rows: repeat(3, 220px) 80px 200px;
+    grid-template-columns: 190px 30px 215px 215px;
+    grid-template-rows:  160px 40px 160px 160px 40px 160px 160px 40px 160px;
   }
-  header {
-    border: 2px solid red;
-    grid-column: 1/4;
+  .header {
+    display: flex;
+    /* border: 2px solid red; */
+    grid-column: 1/2;
+    grid-row: 1/10;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    /*writing-mode: vertical-rl;*/
+    /*justify-content: left;*/
+    align-items: center;
+   
+  }
+  
+  .name {
+    transform: rotate(-90deg);
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    /*grid-column: 1/2;*/
+    /*grid-row: 7/10;*/
+    /*left: 50px;*/
+    /*top: 700px;*/
+    /*justify-content: start;*/
+    /*writing-mode: horizontal-tb;*/
+  
+  }
+  .contact {
+    transform: rotate(-90deg);
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    padding-left: 760px;
+    padding-top: 75px;
+    /*grid-column: 1/2;*/
+    /*grid-row: 3/4;*/
+      
+  }
+  .job {
+    transform: rotate(-90deg);
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    padding-left: 1800px;
+    padding-bottom: 100px;
+    /*padding-top: 75px;*/
+    /*grid-column: 1/2;*/
+    /*grid-row: 3/4;*/
+      
+  }
+
+  h1 {
+    font-size: 90px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+
+  h5 {
+    font-size: 12px;
+  }
+
+  .line {
+    grid-column: 2/3;
+    grid-row: 1/10;
+    background-color: black;
+    height: auto;
+    width: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px 20px 10px;
+  }
+  
+  .Personal-Profile {
+
+    /* border: 2px solid blueviolet; */
+    grid-column: 3/4;
+    grid-row: 1/2;
+  
+  }
+  .Expertise {
+    /* border: 2px solid chocolate; */
+    grid-column: 4/5;
     grid-row: 1/2;
   }
+  .Work-Experience {
+    /* border: 2px solid darkgreen; */
+    grid-column: 3/5;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  
+  
+  .dlm {
+    /* border: 1px solid red; */
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .KVB {
+    /* border: 1px solid tomato; */
+    grid-column: 4/5;
+    grid-row: 3/4;
+  }
+  .jdm {
+    /* border: solid 1px tan; */
+    grid-column: 3/4;
+    grid-row: 4/5;
+  }
+
+.webr {
+  /* border: 2px solid sandybrown; */
+  grid-column: 4/5;
+  grid-row: 4/5;
+}
+
+ul {
+  padding-left: 1.2em;
+}
+
+.Academic-Background {
+  /* border: 2px solid darkgreen; */
+  grid-column: 3/5;
+  grid-row: 5/6;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.abtl {
+  /* border: solid 1px tan; */
+  grid-column: 3/4;
+  grid-row: 6/7;
+}
+
+.abbl {
+  /* border: 1px solid tan; */
+  grid-column: 3/4;
+  grid-row: 7/8;
+}
+
+.abtr {
+  /* border: solid 1px tan; */
+  grid-column: 4/5;
+  grid-row: 6/7;
+}
+
+.abbr {
+  /* border: solid 1px tan; */
+  grid-column: 4/5;
+  grid-row: 7/8;
+}
+
+.Character-Reference {
+  /* border: 1px solid black; */
+  grid-column: 3/5;
+  grid-row: 8/9;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.crl {
+  /* border: 1px solid black; */
+  grid-column: 3/4;
+  grid-row: 9/10;
+}
+.crr {
+  /* border: 1px solid black; */
+  grid-column: 4/5;
+  grid-row: 9/10;
+}
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+  /*
   section:nth-of-type(1) {
     background-color: pink;
     grid-column: 1/2;
     grid-row: 2/3;
     display: flex;
     flex-direction: column;
+    */
     /* justify-content: center; */
-    align-items: center;
+   /* align-items: center;
     padding: 8px;
   }
   section:nth-of-type(1) h1,
@@ -68,3 +251,4 @@
     grid-column: 1/-1;
     grid-row: 5/6;
   }
+  */
