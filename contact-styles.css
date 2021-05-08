@@ -1,0 +1,61 @@
+body {
+    background-color: blanchedalmond;
+    
+    border: 1px solid black;
+    margin: 20px 50px 20px 50px ;
+}
+
+article {
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.user-info {
+    height: 75px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+}
+#just-image {
+    width: 150px;
+    height: 100px;
+}
+.hear-about-contact-back {
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hear-about {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-back {
+    margin-left: auto;
+}
+.comments {
+    display: flex;
+    border: 1px solid blue;
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.birthday-footer {
+    display: flex;
+    height: 150px;
+    border:1px solid blue;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="contact-styles.css">
+  
+</head>
+<body>
+    <form action="results.html" method="GET" enctype="multipart/form-data">
+
+        <article>
+          <img src="./DSC04081.jpg" id="just-image" alt="Just an image">
+          <br>
+            <h1>Thank You for Your Interest</h1> 
+            <br>
+            <div>If you could answer a few questions below it would be appreciated</div> 
+        </article>
+
+        <article class="user-info">
+
+            <!-- name -->
+
+            <div>
+             <label for="name">Name</label>
+             <input type="text" name="name" id="name" >
+         </div>
+        
+         <!-- email -->
+
+         <div>
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" >
+         </div>
+
+        <!-- phone number-->
+
+         <div>
+              <label for="phone">Phone</label>
+             <input type="tel" name="phone" id="phone">
+          </div>
+
+
+        </article>
+
+
+    <!-- How did you hear about me -->
+    <div class="hear-about-contact-back">
+      <div class="hear-about">
+        How did you hear about me?
+          <div>
+            <label for="classmate">Classmate</label>
+            <input type="checkbox" name="Classmate" id="Classmate">
+          </div>
+          <div>
+            <label for="Resume Submissoin">Resume Submission</label>
+            <input type="checkbox" name="ResumeSubmission" id="Resume Submission">
+          </div>
+          <div>
+            <label for="Linkedin">Linkedin</label>
+            <input type="checkbox" name="Linkedin" id="Linkedin">
+          </div>
+          <div>
+            <label for="Coding Academy Rec">Coding Academy Rec</label>
+            <input type="checkbox" name="CodingAcademyRec" id="Coding Academy Rec">
+          </div>
+          
+          <div>
+            <label for="other">Other</label>
+            <input type="text" name="other" id="other" >
+          </div>
+      </div>
+
+     <!-- radio button to be contacted or not -->
+
+      <div class="contact-back">
+        Would you like to be contacted back?
+        <div>
+          <label for="yes">Yes</label>
+          <input type="radio" name="Would you like to be contacted back?" id="Yes" value="Yes">
+        </div>
+        <div>
+          <label for="no">No</label>
+          <input type="radio" name="Would you like to be contacted back?" id="no" value="no">
+        </div>
+      </div>
+    </div>
+
+    <div class="comments">
+      <label for="Comments">Comments</label>
+      <textarea name="Comments" id="Comments" cols="100" rows="3"></textarea>
+
+    </div>
+
+
+
+<!-- ask for birthday -->
+  <div class="birthday-footer">
+    <div>
+    
+        <label for="date">If you would like a birthday suprise enter it here
+          <br>
+        </label>
+        <div class="date">
+        <input type="date" name="date" id="date" min="2019-06-10">
+        </div>
+    </div>
+    <button type="reset">Reset</button>
+    <br>
+    <button type="submit">Submit</button>
+  </div>
+    </form>
+    <script src="scripts.js"></script>
+</body>
+
+</html>   
+<!--
+
+    </div>
+    <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" >
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" >
+    </div>
+    <div>
+      <label for="age">Age</label>
+      <input type="number" name="age" id="age" min="1" max="200" step="5">
+    </div>
+    <div>
+      <label for="date">Birthdate</label>
+      <input type="date" name="date" id="date" min="2019-06-10">
+    </div>
+    <div>
+      Favorite Food
+      <div>
+        <label for="banana">Banana</label>
+        <input type="checkbox" name="banana" id="banana">
+      </div>
+      <div>
+        <label for="apple">Apple</label>
+        <input type="checkbox" name="apple" id="apple">
+      </div>
+    </div>
+    <div>
+      Gender
+      <div>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+      </div>
+      <div>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+      </div>
+      <div>
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="other">
+      </div>
+    </div>
+    <div>
+      <label for="eyeColor">Eye Color</label>
+      <select name="eyeColor" id="eyeColor" multiple>
+        <option value="Green">Green</option>
+        <option label="Red" value="Red"></option>
+      </select>
+    </div>
+    <div>
+      <label for="bio">Bio</label>
+      <textarea id="bio" name="bio"></textarea>
+    </div>
+    <input type="hidden" name="hidden" value="hi">
+    <div>
+      <label for="file">File</label>
+      <input id="file" type="file" name="file">
+    </div>
+    <div>
+      <label for="phone">Phone</label>
+      <input type="tel" name="phone" id="phone">
+    </div>
+    <div>
+      <label for="url">URL</label>
+      <input type="url" name="url" id="url">
+    </div>
+    <div>
+      <label for="color">Color</label>
+      <input type="color" name="color" id="color">
+    </div>
+    <div>
+      <label>
+        Password
+        <input type="password" name="password" >
+      </label>
+    </div>
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+  </form>
+  -->
+  <!-- <script src="scripts.js"></script> -->
+
+© 2021 GitHub, Inc.
